@@ -1,0 +1,129 @@
+        /* Estilização do popup */
+        .popup {
+            display: none; /* Escondido por padrão */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+        }
+
+
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+        }
+        
+
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 10%;
+    
+  }
+
+ 
+
+  #nome {
+width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#sobrenome {
+width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#email {
+width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#senha {
+width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .small-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .small-text a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
